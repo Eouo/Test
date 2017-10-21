@@ -1,11 +1,5 @@
 # markdowm 文件
 
-[必应](https://cn.bing.com)
+# hello world
 
-
-```java
-System.out.println("Hello Markdown"); 
-```
-
-
-![头像](http://www.githead.com/assets/downloads/git_desktop.gif)
+[网易云音乐](http://music.163.com/)听听音乐，放松一下吧。
