@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ehcache>
+	<diskStore path="d:/myblog/temp" />
+
+	<!-- 如果为true,导致下面两个时间设置无效 -->
+	<!-- 闲置时间 最后访问时间 当前时间 -->
+	<!-- 存活时间 当前时间 创建时间 -->
+	<cache name="nodes" maxElementsInMemory="1" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="300" overflowToDisk="true" />
+
+	<cache name="users" maxElementsInMemory="1" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="300" overflowToDisk="true" />
+
+</ehcache>
